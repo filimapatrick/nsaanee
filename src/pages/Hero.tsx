@@ -1,4 +1,4 @@
-import { Twitter, Facebook, Linkedin, Github, Instagram } from 'lucide-react';
+import { Twitter, Linkedin, Github, Instagram } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import portrait from '../assets/barisua2.png';
 
@@ -47,19 +47,17 @@ export default function Hero() {
       </div>
 
       <div className="fixed right-8 top-[85%] -translate-y-1/2 flex flex-col gap-6">
-        <a href="#" className="hover:text-emerald-500 transition-colors">
+        <a href="https://x.com/Ahsua_N" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors">
           <Twitter size={20} />
         </a>
-        <a href="#" className="hover:text-emerald-500 transition-colors">
-          <Facebook size={20} />
-        </a>
-        <a href="#" className="hover:text-emerald-500 transition-colors">
+
+        <a href="https://www.linkedin.com/in/barisua-nsaanee/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors">
           <Linkedin size={20} />
         </a>
         <a href="#" className="hover:text-emerald-500 transition-colors">
           <Github size={20} />
         </a>
-        <a href="#" className="hover:text-emerald-500 transition-colors">
+        <a href="https://www.instagram.com/nsaaneebarisua/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors">
           <Instagram size={20} />
         </a>
       </div>

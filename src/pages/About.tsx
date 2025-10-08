@@ -39,13 +39,13 @@ export default function About() {
                 Download CV
               </button>
               <div className="flex items-center gap-4 mt-2 sm:mt-0">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="https://x.com/Ahsua_N" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                   <Twitter size={20} />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="https://www.instagram.com/nsaaneebarisua/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                   <Instagram size={20} />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/barisua-nsaanee/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                   <Linkedin size={20} />
                 </a>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">

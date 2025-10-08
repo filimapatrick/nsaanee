@@ -1,6 +1,7 @@
 import { Twitter, Linkedin, Github, Instagram } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import portrait from '../assets/barisua2.png';
+import Seo from '../components/Seo';
 
 export default function Hero() {
   const roles = [
@@ -38,7 +39,14 @@ export default function Hero() {
   }, [typed, isDeleting, roleIndex, roles]);
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative">
+    <>
+      <Seo
+        title="Barisua Nsaanee — Community & Neuroscience"
+        description="Community leader and neuroscientist focused on learning experience design, community programs, and research in Africa."
+        keywords="Barisua Nsaanee, neuroscience, learning design, community manager, ALX"
+        url="https://example.com/"
+      />
+  <section className="min-h-screen flex items-center justify-center relative">
       <div className="fixed left-8 top-[85%] -translate-y-1/2 -rotate-90 origin-left">
         <div className="flex gap-6 text-sm text-gray-400">
           <span>ENG</span>
@@ -85,5 +93,6 @@ export default function Hero() {
         </div>
       </div>
     </section>
+    </>
   );
 }

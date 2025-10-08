@@ -1,8 +1,16 @@
 import { Twitter, Facebook, Linkedin, Github, Instagram } from 'lucide-react';
 import portrait from '../assets/barisua2.png';
+import Seo from '../components/Seo';
 
 export default function About() {
   return (
+    <>
+      <Seo
+        title="About — Barisua Nsaanee"
+        description="About Barisua Nsaanee — neuroscientist, learning experience designer, and community leader."
+        keywords="Barisua Nsaanee, neuroscience, ALX, learning design, community manager"
+        url="https://example.com/about"
+      />
     <div className="min-h-screen py-12 sm:py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-8 sm:mb-12">
@@ -125,5 +133,6 @@ export default function About() {
         </section>
       </div>
     </div>
+    </>
   );
 }

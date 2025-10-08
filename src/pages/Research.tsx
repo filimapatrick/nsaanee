@@ -1,5 +1,14 @@
+import Seo from '../components/Seo';
+
 export default function Research() {
   return (
+    <>
+      <Seo
+        title="Research & Projects — Barisua Nsaanee"
+        description="Research projects and community initiatives led by Barisua Nsaanee focusing on neuroscience-led learning programs and community engagement."
+        keywords="neuroscience research, community programs, ALX, Barisua Nsaanee"
+        url="https://example.com/research"
+      />
     <div className="min-h-screen py-24">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
@@ -136,5 +145,6 @@ export default function Research() {
         </section>
       </div>
     </div>
+    </>
   );
 }

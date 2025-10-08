@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* utility to softly fade the right edge of an image to transparent
+	 so it blends with the page background (used by the hero portrait) */
+.fade-right {
+	-webkit-mask-image: linear-gradient(90deg, black 60%, transparent 100%);
+	mask-image: linear-gradient(90deg, black 60%, transparent 100%);
+}
+
